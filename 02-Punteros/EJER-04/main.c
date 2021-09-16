@@ -8,5 +8,5 @@ int main(){
     strcpy(persona.nombre, "Kokumo");
     persona.edad = 30;
 
-    imprimirPersona(persona);
+    imprimirPersona(&persona);
 }

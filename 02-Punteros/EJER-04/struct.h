@@ -3,4 +3,4 @@ typedef struct{
     int edad;
 }ST_PERSONA;
 
-void imprimirPersona(ST_PERSONA persona);
+void imprimirPersona(ST_PERSONA *);
