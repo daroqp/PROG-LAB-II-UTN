@@ -29,7 +29,7 @@ int main(){
         printf("Ingrese la segunda nota: ");
         scanf("%d", &alumno.nota2);
         
-        fprintf(cursoTxt,"%d %.2f", alumno.legajo, calcPromedio(alumno.nota1,alumno.nota2));
+        fprintf(cursoTxt,"%d\t%.2f\n", alumno.legajo, calcPromedio(alumno.nota1,alumno.nota2));
 
         printf("Ingrese un alumno: \n");
         scanf("%d", &alumno.legajo);

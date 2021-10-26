@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 int main() {
 
@@ -6,7 +7,8 @@ int main() {
     archivoTxt = fopen("ejemplo.txt", "r");
 
     if(archivoTxt == NULL){
-        return -1;
+        printf("Error al abrir el archivo");
+        exit(EXIT_FAILURE);
     }
 
         
